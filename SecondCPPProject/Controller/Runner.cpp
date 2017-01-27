@@ -10,7 +10,7 @@
 
 int main()
 {
-    ProjectController * app = new Projectcontroller():
+    ProjectController * app = new ProjectController();
     app->start();
     return 0;
 }

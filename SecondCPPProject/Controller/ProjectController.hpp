@@ -9,5 +9,11 @@
 #ifndef ProjectController_hpp
 #define ProjectController_hpp
 
-
+class ProjectController
+{
+private :
+    void tryNumbers(int sent);
+public:
+    void start();
+};
 #endif /* ProjectController_hpp */
