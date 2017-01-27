@@ -13,6 +13,9 @@ class ProjectController
 {
 private :
     void tryNumbers(int sent);
+    int changeNumber();
+    void changeWithPointer(int* numberPointer);
+    int favoriteNumber();
 public:
     void start();
 };
