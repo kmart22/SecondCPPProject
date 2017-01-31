@@ -7,6 +7,7 @@
 //
 
 #include "ProjectController.hpp"
+#include "../Model/Timer.hpp"
 #include <iostream>
 
 using namespace std;
@@ -28,7 +29,8 @@ void ProjectController :: changeWithPointer(int * numberPointedTo)
 
 void ProjectController :: start()
 {
-    
+    Timer sillyTime;
+    sillyTime.startTimer();
     
     int myNumber = 23445;
     
@@ -44,6 +46,13 @@ void ProjectController :: start()
     cout << "changed?? " << myNumber << endl;
     int newNumber = favoriteNumber();
     cout << newNumber;
+    
+    sillyTime.stopTimer();
+    sillyTime.displayTimerInformation();
+    
+    sillyTime.resetTimer();
+    cout<< sillyTime.getExecutionTimeInMicroseconds() << endl;
+    
 }
 
 void ProjectController ::tryNumbers(int provideNumber)

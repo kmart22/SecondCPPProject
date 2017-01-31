@@ -57,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				215BADEF1E40EC3900B2CFFE /* Model */,
+				215E1D091E3B9A0F00CEB4AC /* Controller */,
 				215E1D011E3B993800CEB4AC /* SecondCPPProject */,
 				215E1D001E3B993800CEB4AC /* Products */,
 			);
@@ -73,7 +74,6 @@
 		215E1D011E3B993800CEB4AC /* SecondCPPProject */ = {
 			isa = PBXGroup;
 			children = (
-				215E1D091E3B9A0F00CEB4AC /* Controller */,
 			);
 			path = SecondCPPProject;
 			sourceTree = "<group>";
@@ -86,6 +86,7 @@
 				215E1D141E3B9C9400CEB4AC /* ProjectController.hpp */,
 			);
 			name = Controller;
+			path = SecondCPPProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
