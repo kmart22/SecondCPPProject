@@ -62,6 +62,13 @@ void ProjectController ::tryNumbers(int provideNumber)
     cout << provideNumber << " is the new value" << endl;
 }
 
+void arrays()
+{
+    int derp [5] = { 1, 2, 3, 4 };
+    double lerp [4] = {0.4, 0.2};
+    
+}
+
 int ProjectController :: favoriteNumber()
 {
     cout << " whats your favorite number?" << endl;
